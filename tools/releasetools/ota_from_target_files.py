@@ -599,7 +599,7 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
       common.ZipWriteStr(output_zip, "system/bin/backuptool.functions",
                      ""+input_zip.read("SYSTEM/bin/backuptool.functions"))
     script.Mount("/system")
-    script.Print("Please wait..running backup")
+    script.Print("Please wait... Running backup")
     script.RunBackup("backup")
     script.Unmount("/system")
 
@@ -700,7 +700,7 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
       script.Unmount("/system")
 
   script.ShowProgress(0.05, 5)
-  script.Print("Flashing Screwd kernel")
+  script.Print("Flashing Screwd kernel...")
   script.WriteRawImage("/boot", "boot.img")
 
   script.Print("Flashing SuperSU...")
