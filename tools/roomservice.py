@@ -45,8 +45,8 @@ default_manifest = ".repo/manifest.xml"
 custom_local_manifest = ".repo/local_manifests/screwd_manifest.xml"
 custom_default_revision = "m"
 custom_dependencies = "screwd.dependencies"
-org_manifest = "ScrewdAOSP"  # leave empty if org is provided in manifest
-org_display = "ScrewdAOSP"  # needed for displaying
+org_manifest = "SUB4S0NiK"  # leave empty if org is provided in manifest
+org_display = "SUB4S0NiK"  # needed for displaying
 
 github_auth = None
 
